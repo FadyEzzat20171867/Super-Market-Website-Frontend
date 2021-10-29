@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="shop.css">
+<script src="javascript.js"></script>
+<title> Market </title>
+<meta charset = "UTF-8">
+</head>
+<body>
+<nav id="nav">
+<ul>
+<li ><a href="HomePage2.html">Home</a></li>
+<li><a href="Market.html" class="active">Market</a></li>
+<li class="outt"><a href="logn.html">Logout</a></li>
+<li class="outt"><a href="cantactus .html">Contact</a></li>
+<li class="outt"><a href="ABOUT.html">About</a></li>
+<li></li>
+</ul>
+<fieldset id="cartpay">
+<legend><h2>Cart</h2></legend>
+<button onclick="pay()" class="pay"> Show Reciept </button>
+<table id="one" border="1" style="border-collapse:collapse;">
+</table>
+<a href="payment.html"><input type="button" value="Pay Now"></input></a>
+</fieldset>
+<input type="search" id="search" placeholder="Search Here"></input>
+<fieldset class="fieldset">
+<legend><h3>Chocolates</h3></legend>
+<table border="1">
+<tr>
+<td	>
+<img src="bubbly.jpg"></img><h4>Dairy Milk bubbly &nbsp &nbsp Price : 150 L.E/Pack</h4>
+<button onclick="bubbly()">Add To Cart</a></button>
+Quantity<input type="number" min="0" value="0" id="bubbly" min="0"></input>
+</td>
+<td>
+<img src="caramel.jpg"></img><h4>Dairy Milk Caramel &nbsp &nbsp Price : 10 L.E/Piece</h4>
+<button onclick="caramel()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0"id="caramel"></input>
+</td>
+<td>
+<img src="pack.jpg"></img><h4>Dairy Milk Pack &nbsp &nbsp Price : 150 L.E/Piece</h4>
+<button onclick="pack()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="pack"></input>
+</td>
+<td>
+<img src="hershey.jpg"></img><h4>Hersheys &nbsp &nbsp Price : 30 L.E/Piece</h4>
+<button onclick="hershey()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="hershey"></input>
+</td>
+</tr>
+<tr>
+<td>
+<img src="kitkat.jpg"></img><h4>KitKat &nbsp &nbsp Price : 15 L.E/Piece</h4>
+<button onclick="kitkat()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="kitkat"></input>
+</td>
+<td>
+<img src="dairymilk.jpg"></img><h4>DairyMilk Pack &nbsp &nbsp Price : 75 L.E/Piece</h4>
+<button onclick="dairymilk()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="dairymilk"></input>
+</td>
+<td>
+<img src="chunky.jpg"></img><h4>KitKat Chunky &nbsp &nbsp Price : 15 L.E/Piece</h4>
+<button onclick="chunky()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="chunky"></input>
+</td>
+<td>
+<img src="hersheyspack.jpg"></img><h4>Hersheys &nbsp &nbsp Price : 90 L.E/Piece</h4>
+<button onclick="hersheyspack()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="hersheyspack"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>Drinks</h3></legend>
+<table border="1">
+<tr>
+<td>
+<img src="nestle1.jpg"></img><h4>Nestle &nbsp &nbsp Price : 120 L.E/Piece</h4>
+<button onclick="nestle1()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="nestle1"></input>
+</td>
+<td>
+<img src="nestle.jpg"></img><h4>Nestle &nbsp &nbsp Price : 4 L.E/Piece</h4>
+<button onclick="nestle()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="nestle"></input>
+</td>
+<td>
+<img src="cocacola.jpg"></img><h4>CocaCola &nbsp &nbsp Price : 5 L.E/Piece</h4>
+<button onclick="cocacola()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="cocacola"></input>
+</td>
+<td>
+<img src="pepsi.jpg"></img><h4>Pepsi &nbsp &nbsp Price : 5 L.E/Piece</h4>
+<button onclick="pepsi()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="pepsi"></input>
+</td>
+</tr>
+<tr>
+<td>
+<img src="redbull.jpg"></img><h4>Redbull &nbsp &nbsp Price : 25 L.E/Piece</h4>
+<button onclick="redbull()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="redbull"></input>
+</td>
+<td>
+<img src="phorse.jpg"></img><h4>PowerHorse &nbsp &nbsp Price : 30 L.E/Piece</h4>
+<button onclick="powerhorse()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="phorse"></input>
+</td>
+<td>
+<img src="amstel.jpg"></img><h4>AmstelZero &nbsp &nbsp Price : 7 L.E/Piece</h4>
+<button onclick="amstel()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="amstel"></input>
+</td>
+<td>
+<img src="beyti.jpg"></img><h4>Beyti &nbsp &nbsp Price : 5 L.E/Piece</h4>
+<button onclick="beyti()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="beyti"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>Snacks</h3></legend>
+<table border="1">
+<tr>
+<td>
+<img src="pringles.jpg"></img><h4>Pringles &nbsp &nbsp Price : 45 L.E/Piece</h4>
+<button onclick="pringles()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="pringles"></input>
+</td>
+<td>
+<img src="lays.jpg"></img><h4>Lays &nbsp &nbsp Price : 40 L.E/Piece</h4>
+<button onclick="lays()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="lays"></input>
+</td>
+<td>
+<img src="doritos.jpg"></img><h4>Doritos &nbsp &nbsp Price : 10 L.E/Piece</h4>
+<button onclick="doritos()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="doritos"></input>
+</td>
+<td>
+<img src="chipsy.jpg"></img><h4>Chipsy &nbsp &nbsp Price : 5 L.E/Piece</h4>
+<button onclick="chipsy()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="Chipsy"></input>
+</td>
+</tr>
+<tr>
+<td>
+<img src="digestive.jpg"></img><h4>Digestive &nbsp &nbsp Price : 30 L.E/Piece</h4>
+<button onclick="digestive()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="digestive"></input>
+</td>
+<td>
+<img src="loaker.jpg"></img><h4>Loacker &nbsp &nbsp Price : 130 L.E/Piece</h4>
+<button onclick="loacker()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="loacker"></input>
+</td>
+<td>
+<img src="loaker1.jpg"></img><h4>Loacker &nbsp &nbsp Price : 25 L.E/Piece</h4>
+<button onclick="loacker1()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="loacker1"></input>
+</td>
+<td>
+<img src="Cheetos.jpg"></img><h4>Cheetos &nbsp &nbsp Price : 6 L.E/Piece</h4>
+<button onclick="cheetos()">Add To Cart</button>
+Quantity<input type="number" min="0" value="0" id="cheetos"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>Fruit Market</h3></legend>
+<table border="1">
+<tr>
+<td>
+<img src="banana.jpg"></img><h4>Banana &nbsp-&nbsp Price : 10L.E/KG</h4>
+<button onclick="banana()">Add To Cart</button>
+Quantity<input type="number" id="quantityBanana" min="0" value="0"></input>
+</td>
+<td>
+<img src="grape.jpg"><h4>Grape &nbsp-&nbsp Price : 20L.E/KG</h4>
+<button onclick="grape()">Add To Cart</button>
+Quantity<input type="number" id="quantityGrape" min="0" value="0"></input>
+</td>
+<td>
+<img src="greenApple.jpg"><h4>Green Apple - Price : 12L.E/KG</h4>
+<button onclick="greenApple()">Add To Cart</button>
+Quantity<input type="number" id="quantityGreenApple" min="0" value="0"></input>
+</td>
+<td>
+<img src="strawberry.jpg"><h4>Strawberry - Price : 15L.E/KG</h4>
+<button onclick="strawberry()">Add To Cart</button>
+Quantity<input type="number" id="quantityStrawberry" min="0" value="0"></input>
+</td>
+</tr>
+<tr>
+<td>
+<img src="redApple.jpg"><h4>Red Apple - Price : 12L.E/KG</h4>
+<button onclick="redApple()">Add To Cart</button>
+Quantity<input type="number" id="quantityRedApple" min="0" value="0"></input>
+</td>
+<td>
+<img src="kiwi.jpg"><h4>kiwi - Price : 11L.E/KG</h4>
+<button onclick="kiwi()">Add To Cart</button>
+Quantity<input type="number" id="quantityKiwi" min="0" value="0"></input>
+</td>
+<td>
+<img src="orange.jpg"><h4>Orange - Price : 12L.E/KG</h4>
+<button onclick="orange()">Add To Cart</button>
+Quantity<input type="number" id="quantityOrange"value="0"></input>
+</td>
+<td>
+<img src="mango.jpg"><h4>Mango - Price : 35L.E/KG</h4>
+<button onclick="mango()">Add To Cart</button>
+Quantity<input type="number" id="quantityMango" min="0" value="0"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>Vegetables Market</h3></legend>
+<table border="1">
+<tr>
+<td>
+<img src="Broccoli.jpg"></img><h4>Broccoli &nbsp-&nbsp Price : 10L.E/KG</h4>
+<button onclick="broccoli()">Add To Cart</button>
+Quantity<input type="number" id="quantityBroccoli" min="0" value="0"></input>
+</td>
+<td><img src="carrot.jpg"><h4>Carrot &nbsp-&nbsp Price : 8L.E/KG</h4>
+<button onclick="carrot()">Add To Carrot</button>
+Quantity<input type="number" id="quantityCarrot" min="0" value="0"></input>
+</td>
+<td>
+<img src="Cucumber.jpg"><h4>Cucumber - Price : 6L.E/KG</h4>
+<button onclick="cucumber()">Add To Cart</button>
+Quantity<input type="number" id="quantityCucumber" min="0" value="0"></input>
+</td>
+<td>
+<img src="eggplant.jpg"><h4>Eggplant - Price : 11L.E/KG</h4>
+<button onclick="eggplant()">Add To Cart</button>
+Quantity<input type="number" id="quantityEggplant" min="0" value="0"></input>
+</td>
+</tr>
+<tr>
+<td>
+<img src="greenPepper.png"><h4>Green Pepper - Price : 6L.E/KG</h4>
+<button onclick="greenpepper()">Add To Cart</button>
+Quantity<input type="number" id="quantityGreenPepper" min="0" value="0"></input>
+</td>
+<td>
+<img src="redPepper.png"><h4>Red Pepper - Price : 6L.E/KG</h4>
+<button onclick="redpepper()">Add To Cart</button>
+Quantity<input type="number" id="quantityRedPepper" min="0" value="0"></input>
+</td>
+<td>
+<img src="yellowPepper.jpg"><h4>Yellow Pepper - Price : 6L.E/KG</h4>
+<button onclick="yellowpepper()">Add To Cart</button>
+Quantity<input type="number" id="quantityYellowPepper" min="0"value="0"></input>
+</td>
+<td>
+<img src="onion.png"><h4>Onion - Price : 9L.E/KG</h4>
+<button onclick="onion()">Add To Cart</button>
+Quantity<input type="number" id="quantityOnion" min="0" value="0"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>White Meats</h3></legend>
+<table border="1">
+<tr>
+<td><h4>Full Chicken - Price 100L.E/Piece</h4>
+<img src="chicken.jpg"></img>
+<button onclick="chicken()">Add To Cart</button>
+Quantity<input type="number" value="0" id="chicken" min="0"></input>
+</td>
+<td><h4>Full Duck - Price 150L.E/Piece</h4>
+<img src="duck.jpg"></img>
+<button onclick="duck()">Add To Cart</button>
+Quantity<input type="number" value="0" id="duck" min="0"></input>
+</td>
+<td>
+<img src="fillet.jpg"></img><h4>Fillet - Price 80L.E/KG</h4>
+<button onclick="fillet()">Add To Cart</button>
+Quantity<input type="number" value="0" id="fillet" min="0"></input>
+</td>
+<td>
+<img src="crispy.jpg"></img><h4>Crispy - Price 90L.E/KG</h4>
+<button onclick="crispy()">Add To Cart</button>
+Quantity<input type="number" value="0" id="crispy" min="0"></input>
+</td>
+</tr>
+<tr>
+<td>
+<img src="wings.jpg"></img><h4>Chicken Wings - Price 50L.E/KG</h4>
+<button onclick="wings()">Add To Cart</button>
+Quantity<input type="number" value="0" min="0" id="wings"></input>
+</td>
+<td>
+<img src="roosted.jpg"></img><h4>Roosted - Price 130L.E/KG</h4>
+<button onclick="roosted()">Add To Cart</button>
+Quantity<input type="number" value="0" min="0" id="roosted"></input>
+</td>
+<td>
+<img src="hips.jpg"></img><h4>Chicken Hips - Price 70L.E/KG</h4>
+<button onclick="hips()">Add To Cart</button>
+Quantity<input type="number" value="0" min="0" id="hips"></input>
+</td>
+<td>
+<img src="cubes.jpg"></img><h4>Chicken Cubes - Price 70L.E/KG</h4>
+<button onclick="cubes()">Add To Cart</button>
+Quantity<input type="number" value="0" min="0" id="cubes"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>Red Meats</h3></legend>
+<table border="1">
+<tr>
+<td>
+<img src="beef.jpg"></img><h4>Beef - Price 220L.E/KG</h4>
+<button onclick="beef()">Add To Cart</button>
+Quantity<input type="number" value="0" id="beef" min="0"></input>
+</td>
+<td>
+<img src="mutton.jpg"></img><h4>Mutton - Price 250L.E/KG</h4>
+<button onclick="mutton()">Add To Cart</button>
+Quantity<input type="number" value="0" id="mutton" min="0"></input>
+</td>
+<td>
+<img src="lamb.jpg"></img><h4>Lamb - Price 200L.E/KG</h4>
+<button onclick="lamb()">Add To Cart</button>
+Quantity<input type="number" value="0" id="lamb" min="0"></input>
+</td>
+<td>
+<img src="veal.jpg"></img><h4>Veal - Price 190L.E/KG</h4>
+<button onclick="veal()">Add To Cart</button>
+Quantity<input type="number" value="0" id="veal" min="0"></input>
+</td>
+</tr>
+<tr>
+<td>
+<img src="Vension.jpg"></img><h4>Vension - Price 200L.E/KG</h4>
+<button onclick="vension()">Add To Cart</button>
+Quantity<input type="number" value="0" id="vension" min="0"></input>
+</td>
+<td>
+<img src="goat.jpg"></img><h4>Goat - Price 150L.E/KG</h4>
+<button onclick="goat()">Add To Cart</button>
+Quantity<input type="number" value="0" min="0" id="goat"></input>
+</td>
+<td>
+<img src="sausage.jpg"></img><h4>Sausage - Price 80L.E/KG</h4>
+<button onclick="sausage()">Add To Cart</button>
+Quantity<input type="number" value="0" min="0" id="sausage"></input>
+</td>
+<td>
+<img src="bacon.jpg"></img><h4>Bacon - Price 100L.E/KG</h4>
+<button onclick="bacon()">Add To Cart</button>
+Quantity<input type="number" value="0" min="0" id="bacon"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>Fish Market</h3></legend>
+<table border="1">
+<tr>
+<td>
+<img src="bory.jpg"></img><h4>Puri Fish - Price : 100L.E/KG</h4>
+<button onclick="bory()">Add To Cart</button>
+Quantity<input type="number" id="quantity" min="0" value="0"></input>
+</td>
+<td><img src="bolty.jpg"><h4>Bolty Fish - Price : 80L.E/KG</h4>
+<button onclick="bolty()">Add To Cart</button>
+Quantity<input type="number" id="quantitybolty" min="0" value="0"></input>
+</td>
+<td>
+<img src="hamour.jpg"><h4>Hamour Fish - Price : 120L.E/KG</h4>
+<button onclick="hamour()">Add To Cart</button>
+Quantity<input type="number" id="quantityhamour" min="0" value="0"></input>
+</td>
+<td>
+<img src="macarel.jpg"><h4>Macarel Fish - Price : 80L.E/KG</h4>
+<button onclick="macarel()">Add To Cart</button>
+Quantity<input type="number" id="quantityMacarel" min="0" value="0"></input>
+</td>
+</tr>
+<tr>
+<td>
+<img src="estkoza.jpg"><h4>Lobster Fish - Price : 400L.E/KG</h4>
+<button onclick="lobster()">Add To Cart</button>
+Quantity<input type="number" id="quantityLobster" min="0" value="0"></input></td>
+<td>
+<img src="fillet.jpg"><h4>Fillet Fish - Price : 110L.E/KG</h4>
+<button onclick="filletfish()">Add To Cart</button>
+Quantity<input type="number" id="quantityFillet" min="0" value="0"></input>
+</td>
+<td>
+<img src="shrimp.jpg"><h4>Shrimp - Price : 350L.E/KG</h4>
+<button onclick="shrimp()">Add To Cart</button>
+Quantity<input type="number" id="quantityShrimp" min="0" value="0"></input>
+</td>
+<td>
+<img src="macarona.jpg"><h4>Macarona Fish - Price : 70L.E/KG</h4>
+<button onclick="macarona()">Add To Cart</button>
+Quantity<input type="number" id="quantityMacarona" min="0" value="0"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>Bakery Shop</h3></legend>
+<table border="1">
+<tr>
+<td>
+<img src="croissant.png"></img><h4>Croissant Original - Price : 10L.E/piece</h4>
+<button onclick="croissant()">Add To Cart</button>
+Quantity<input type="number" id="quantityCroissant" min="0" value="0"></input>
+</td>
+<td>
+<img src="croissantCheese.jpg"><h4>Cheese Croissant - Price : 11L.E/piece</h4>
+<button onclick="croissantCheese()">Add To Cart</button>
+Quantity<input type="number" id="quantitycroissantCheese" min="0" value="0"></input>
+</td>
+<td>
+<img src="croissantChoc.png"><h4>Chocolate Croissant - Price : 13L.E/piece</h4>
+<button onclick="croissantchoc()">Add To Cart</button>
+Quantity<input type="number" id="quantitycroissantChoc" min="0" value="0"></input>
+</td>
+<td>
+<img src="tartLarge.jpg"><h4>Large Tart (4 Floors) - Price : 600L.E/piece</h4>
+<button onclick="tartlarge()">Add to Cart</button>
+Quantity<input type="number" id="quantitytartLarge"  min="0"value="0"></input>
+</td>
+</tr>
+<tr>
+<td>
+<img src="GateauChoc.jpg"><h4>Chocolate Gateau - Price : 20L.E/piece</h4>
+<button onclick="gateauchoc()">Add To Cart</button>
+Quantity<input type="number" id="quantityGateauChoc" min="0" value="0"></input>
+</td>
+<td>
+<img src="redVelvet.jpg"><h4>Red Velvet - Price : 25L.E/piece</h4>
+<button onclick="redvelvet()">Add To Cart</button>
+Quantity<input type="number" id="quantityredVelvet" min="0" value="0"></input>
+</td>
+<td>
+<img src="ChocCake.jpg"><h4>Chocolate Cake - Price : 50L.E/piece</h4>
+<button onclick="chocolatecake()">Add To Cart</button>
+Quantity<input type="number" id="quantityChocCake" min="0" value="0"></input>
+</td>
+<td>
+<img src="BirthCake.jpg"><h4>BirthDay Cake - Price : 110L.E/piece</h4>
+<button onclick="birthcake()">Add To Cart</button>
+Quantity<input type="number" id="quantityBirthCake" min="0" value="0"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<footer id="copyrights">
+	<p>&copy; Copy rights reserved ,<a href="cantactus.html" style="color:red">Contact Us</a> </p>
+	</footer>
+</body>
+</html>

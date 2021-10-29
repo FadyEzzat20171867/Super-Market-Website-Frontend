@@ -1,0 +1,65 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background-image:url('img1.jpg');
+    background-size: cover;
+}
+.signup
+{
+    background:#2c3e50;
+	padding:40px;
+	width:250px;
+	margin:auto;
+	margin-top:80px;
+	height:430px;
+	margin-left:180px;
+	margin:0 auto;
+	margin-top:90px;
+}
+form
+{
+    width: 240px;
+    text-align: center;
+}
+input
+{
+    
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    outline: none;
+    color: white;
+}
+input[type=submit]
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=submit]:hover
+{
+    color: white;
+    background-color:green;
+}
+h2
+{
+    color: white;
+    
+}
+#loginhere{
+	text-decoration:none;
+	color:white;
+}

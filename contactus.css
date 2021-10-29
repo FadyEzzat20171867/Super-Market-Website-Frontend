@@ -1,0 +1,91 @@
+body{
+	background-image:url('img1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#fieldset{
+	background-color:#2C3E50;
+	width:400px;
+	margin-left:35%;
+	margin-top:10%;
+}
+#form{
+	height:30px;
+	width:600px;
+}
+.login{
+	float:right;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width:1520px;
+  margin-left:0%;
+  border:0px;
+  border-radius:7px;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width:150px;
+}
+li a:hover{
+  background-color: green;
+  border-radius:7px;
+  border:0px;
+}
+li a.active{
+	border:0px;
+	border-radius:7px;
+	background-color: green;
+}
+.text{
+	height:20px;
+	width:200px;
+	background-color:white;
+	border-radius:7px;
+}
+#legend{
+	color:white;
+}
+#copyrights{
+	color:white;
+	font-weight:bolder;
+	margin-top:7%;
+}
+#complaint{
+	border-radius:7px;
+	width:400px;
+	height:200px;
+}
+input[type="submit"]{
+	margin-left:25%;
+	border-color:#2C3E50;
+	border-radius:7px;
+	height:30px;
+	width:100px;
+}
+input[type="reset"]{
+	border-color:#2C3E50;
+	border-radius:7px;
+	height:30px;
+	width:100px;
+}
+input[type=reset]:hover
+{
+    color: #fff;
+    background-color: green;
+}input[type=submit]:hover
+{
+    color: #fff;
+    background-color: green;
+}

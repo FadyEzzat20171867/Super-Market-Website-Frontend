@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="contactus.css">
+<title>Contact Us</title>
+<meta charset = "UTF-8">
+</head>
+<body>
+<nav>
+<ul>
+<li ><a href="HomePage2.html">Home</a></li>
+<li> <a href="Market.html">Market</a></li>
+<li class="login"><a href="Homepage.html">Logout</a></li>
+<li class="login"><a href="cantactus .html"  class="active">Contact</a></li>
+<li class="login"><a href="about.html">About</a></li>
+</ul>
+</nav>
+<form action="Homepage2.html">
+<fieldset id="fieldset">
+<legend id="legend"><h3>Contact Info</h3></legend>
+Name <input type="text" placeholder="Full name" class="text" required></input><br>
+Email <input type="email" placeholder="Ex:John@domain.com" class="text" required></input><br>
+Phone <input type="tel" placeholder="XXXX-XXX-XXXX" class="text" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required></input><br>
+Complaint<textarea rows="7" placeholder="Write your Complaint/Recommendation over here" cols="50" name="comment" form="usrform" required></textarea>
+<input class="submit" type="submit" value="Submit"></input>
+<input type="reset" class="submit" value="Clear"></input>
+</fieldset>
+</form>
+</body>
+<footer>
+<p id="copyrights">&copy; Copy rights reserved</p>
+</footer>
+</html>

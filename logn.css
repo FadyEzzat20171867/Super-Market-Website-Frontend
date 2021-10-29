@@ -1,0 +1,77 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background-image:url('img1.jpg');
+    background-size: cover;
+}
+.signin
+{
+    background:#2c3e50;
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 90px;
+    height: 400px;
+    margin-left: 180x;
+    
+}
+form
+{
+    width: 240px;
+    text-align: center;
+}
+.input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    outline: none;
+    color: white;
+}
+.ok{
+	
+	background-color:white;
+	color:black;
+	width:240px;
+	border:0px;
+	border-radius:7px;
+	height:30px;
+	margin-top:7%;
+}
+.ok:hover{
+	background-color:green;
+}
+h2
+{
+    color: white;
+    
+}
+a
+{
+    color: white;
+    text-decoration: blink;
+    font-family:'Play', sans-serif;
+}
+a:hover
+{
+    color: skyblue;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+::placeholder {
+    color:black;
+}
+#copyrights{
+	margin-top:9%;
+}
